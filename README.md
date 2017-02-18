@@ -21,7 +21,7 @@ Plugins: grunt-contrib-uglify, grunt-contrib-cssmin, grunt-contrib-htmlmin
 
 
 ## Desafio n° 2 - Arquivos para avaliar
-1. **HTML: formulario.html**
+1. **HTML: \formulario.html**
 2. **JS: \js**
 
 
