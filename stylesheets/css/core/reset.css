@@ -1,0 +1,45 @@
+/*
+Syntax error: Invalid CSS after "  list-style:": expected pseudoclass or pseudoelement, was " none"
+        on line 7 of C:/wamp64/www/amil/stylesheets/scss/core/reset.scss
+
+Backtrace:
+C:/wamp64/www/amil/stylesheets/scss/core/reset.scss:7
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1129:in `expected'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1066:in `expected'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1048:in `expr!'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:777:in `pseudo'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:660:in `simple_selector_sequence'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:629:in `_selector'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:602:in `selector'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:592:in `selector_sequence'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:511:in `ruleset'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:536:in `block_child'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:526:in `block_contents'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:70:in `stylesheet'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:27:in `parse'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:342:in `_to_tree'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:315:in `_render'
+C:/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:262:in `render'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:\Scout\bin\compass:12:in `(root)'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"  list-style:\": expected pseudoclass or pseudoelement, was \" none\"\A         on line 7 of C:/wamp64/www/amil/stylesheets/scss/core/reset.scss"; }

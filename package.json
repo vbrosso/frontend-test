@@ -1,0 +1,21 @@
+{
+  "name": "project_name",
+  "version": "1.0.0",
+  "title": "Project Title",
+  "homepage": "http://www.yoursite.com.br",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-htmlmin": "^2.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-html-validation": "^0.1.18",
+    "grunt-w3c-html-validation": "^0.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vbrosso/frontend-test"
+  },
+  "author": "Victor Brosso",
+  "license": "ISC"
+}

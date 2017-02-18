@@ -1,0 +1,550 @@
+/*VARIAVEIS*/
+$textos-color: #898989;
+$bordas-color: #c9c9c9;
+$header-color:#eeeeee;
+$orange-color:#f7941e;
+$pink-color:#ec007a;
+$blue-color:#20b7ce;
+
+/*MIXINS*/
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+body{
+	@include primary-font(400);
+	color: $textos-color;
+}
+.wrap{
+	width: 942px;
+	margin:0 auto; 
+}
+header{
+	background:#eee;
+	float: left;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #c9c9c9;
+}
+header #logo{	
+	-webkit-box-shadow:  0px 0px 10px 0px rgba(0,0,0,.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,.2);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,.2);
+	float: left;
+	width: 87px; 
+	height: 93px;
+	background: #fff;
+	padding: 6px 14px 5px 16px;
+}
+/*MENU PRINCIPAL*/
+header nav#menuPrincipal ul{
+	float: left;
+	padding: 0 0 0 20px;
+}
+header nav#menuPrincipal ul li{
+	display: inline;
+	padding: 0px 20px 0 30px;
+	margin: 12px 0 0 0;
+	float: left;
+	border-right: 1px solid $bordas-color;
+}
+header nav#menuPrincipal ul li:last-child{
+	border-right: none;
+}
+header nav#menuPrincipal ul li a{
+	@include primary-font(600);
+	color: $textos-color;
+	font-size: 16px;
+	text-decoration: none;
+}
+header .botaoHeader{
+	@include border-radius(5px);
+	@include primary-font(700);
+	background: $orange-color;
+	color: #fff;
+	border: none;
+	padding: 4px 26px 4px 26px;
+	margin: 10px 0 0 0;
+	font-size: 16px;
+	float: right;
+	cursor: pointer;
+}
+.adicionaContato[ng-disabled="true"] {
+	opacity: 0.5;
+	cursor: default;
+}
+/*BREADCRUMB*/
+ol.breadCrumb{
+	width: auto;
+	float: left;
+	padding: 16px 0 16px 150px;
+	li{
+		font-size: 12px;
+		display: inline;
+		a{
+			color:$textos-color;
+			text-decoration: none; 
+		}
+		span{
+			color: $textos-color;
+		}
+	}
+}
+.bannerLeft{
+	float: left;
+	width: 700px;
+	padding: 40px 0 0 0;
+}
+/*SLIDER*/
+ul#slider{
+	float: left;
+	width: auto;
+	li{
+		float: left;
+		display: inline;
+		width: 100%;
+		img{
+			border: 1px solid $bordas-color;
+		}
+	}
+}
+ul.navigateSlider{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	clear: both;
+	li{
+		display: inline-block;
+		padding: 0 0 0 5px;
+		a{
+			display: inline-block !important;
+			width: 10px;
+			height: 10px;
+			color:#898989;
+			text-decoration: none; 
+			background-color: $textos-color;
+			text-indent: -9999px;
+		}
+		a.active, a:hover{
+			background-color: $blue-color;
+		}
+	}
+}
+.bannerRight{
+	float: right;
+	padding: 40px 0 40px 0;
+	img{
+	    outline: 3px solid $pink-color;
+	    outline-offset: -3px;
+	}
+}
+/*SIDEBAR*/
+aside.sidebar{
+	border: 1px solid $bordas-color;
+	float: left;
+	clear: both;
+	width: 186px;
+	padding: 16px;
+	margin-top: -6px;
+	h2{
+		color: $orange-color;
+		font-size: 16px;
+		border-bottom: 1px solid $bordas-color;
+		padding-bottom: 8px;
+		@include primary-font(400);
+	}
+	h3{
+		color: $blue-color;
+		font-size: 14px;
+		padding: 20px 0 0 0;
+		&:before {
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 10px;
+			width: 0; 
+			height: 0; 
+			border-top: 5px solid transparent;
+			border-bottom: 5px solid transparent;
+			border-left: 9px solid $orange-color;
+		}
+		a{
+			color: $blue-color;
+			font-size: 14px;
+			text-decoration: none;
+		}
+    }
+    ul li{
+    	display: block;
+    	a{
+    		color: $textos-color;
+    		font-size: 14px;
+    		text-decoration: none;
+    		margin: 10px 0 0 0;
+    		display: block;
+    	}
+    }
+}
+/*CONTENT*/
+.content{
+	float: left;
+	padding: 0 0 0 21px;
+	width: 700px;
+}
+.content h1, .content article h1, .tituloPrincipal{
+	@include primary-font(300);
+	color: $pink-color;
+	font-size: 20px;
+	border-bottom: 1px solid $bordas-color;
+	padding-bottom: 20px;
+	width: 462px;
+	float: left;
+	margin-top: -6px;
+}
+.content article .bannerArticle {
+	margin: 40px 0 40px 0;
+	float: left;
+}
+.bannerArticle figcaption{
+	@include primary-font(600);
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	margin: -56px 0 0 0;
+	padding:15px 0 15px 0;
+	float: left;
+	z-index: 2;
+	position: relative;
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.content article p{
+	@include primary-font(400);
+	font-size: 16px;
+	color: $textos-color;
+	padding: 20px 0 0 0;
+	width: 462px;
+	float: left;
+}
+.content .banner{
+	float: right;
+	width: 220px;
+	h1{
+		 @extend .tituloPrincipal;
+		 width: 100%;
+	}
+	img{
+		@include border-radius(10px);
+		margin: 20px 0 0 0;
+	}
+}
+.content ul.boxMessages {
+	li{
+		float: left;
+		width: 217px;
+		height: 115px;
+		border: 1px solid $orange-color;
+		margin: 0 20px 80px 0;
+		padding: 14px 0 23px 0;
+		text-align: center;
+		&:last-child{
+			margin-right: 0;
+		}
+		p{
+			text-align: center;
+			@include primary-font(400);
+			font-size: 14px;
+			padding: 16px 0 16px 0;
+		}
+	}
+	.sucess #sucessIco{
+		width: 50px;
+		height: 50px;
+		margin: 0 auto;
+	}
+	.error #errorIco{
+		width: 54px;
+		height: 54px;
+	}
+	.edit #editIco{
+		border: 3px solid $pink-color;
+		@include border-radius(50px);
+		width: 50px;
+		height: 50px;
+		margin:0 auto ;
+		object{
+			width: 30px;
+			height: 50px;
+		}
+	}
+
+}
+/*FORMULARIO*/
+.divContato{
+	padding: 80px 0 0 0;
+	min-height: 400px;
+	float: left;
+	h1{
+		float: left;
+		width: 100%;
+		margin-top: 40px;
+	}
+	p{
+		font-size: 12px;
+		clear: both;
+		padding: 0px 0 10px 0;
+		margin-top: 0;
+		float: left;
+	}
+	form{
+		border:none;
+		float: left;
+		clear: both;
+		width: 100%;
+		fieldset{
+			border:none;
+			float: left;
+			clear: both;
+			width: 100%;
+			legend{
+				display: none;
+			}
+			h2{
+				margin: 30px 0 0px 0;
+			}
+			.erroForm{
+				background: #ff6f6f;
+				width: 90%;
+				padding: 10px 0 10px 0;
+				text-align: center;
+				color: #fff;
+				font-size: 16px;
+				float: left;
+				margin:10px 0 10px 5%;
+				display: none;
+			}
+			.sucessForm{
+				background: #539962;
+				width: 90%;
+				padding: 10px 0 10px 0;
+				text-align: center;
+				color: #fff;
+				font-size: 16px;
+				float: left;
+				margin:10px 0 10px 5%;
+				display: none;
+			}
+			input.error{
+				border: 1px solid red;
+			}
+			input.inputNome, input.inputEmail{
+				width: 700px;
+				height: 25px;
+				margin-top: 5px;
+				float: left;
+				font-size: 16px;
+			}
+			input.inputDDD{
+				width: 100px;
+				height: 25px;
+				margin-top: 5px;
+				float: left;
+				font-size: 16px;
+			}
+			input.inputTelefone{
+				width: 700px;
+				height: 25px;
+				margin: 5px 0 0 0px;
+				float: right;
+				font-size: 16px;
+			}
+			ul.titulo{
+				float: left;
+				clear: both;
+				width: 100%;
+				margin-top: 20px;
+				li{
+					float: left;
+					text-align: center;
+					@include primary-font(700);
+					font-size: 14px;
+					width: 180px;
+					margin-top: 15px 0 0 0;
+				}
+			}
+			.adicionaContato{
+				@include border-radius(5px);
+				@include primary-font(700);
+				background: $orange-color;
+				color: #fff;
+				border: none;
+				padding: 4px 26px 4px 26px;
+				margin: 10px 0 0 0;
+				font-size: 14px;
+				float: right;
+				cursor: pointer;
+			}
+			.adicionaContato[disabled="disabled"]{
+				opacity: 0.5;
+				cursor: default;
+			}
+			.limpaContato{
+				@include border-radius(5px);
+				@include primary-font(700);
+				background: #999;
+				color: #fff;
+				border: none;
+				padding: 4px 26px 4px 26px;
+				margin: 10px 10px 0 0;
+				font-size: 14px;
+				float: right;
+				cursor: pointer;
+			}
+		} 
+	}
+}
+table.listacontatos{
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-top: 30px;
+	display: none;
+	th, td{
+		@include primary-font(400);
+		font-size: 14px;
+		float: left;
+		text-align: center;
+		padding: 10px 15px 15px 0;
+		width: 30%;
+	}
+	th{
+		background: #eee;
+	}
+	td{
+		border-bottom: 1px solid #eee;
+	}
+}
+/*FOOTER*/
+footer{
+	background: $header-color;
+	width: 100%;
+	float: left;
+	clear: both;
+	min-height: 570px;
+	position: relative;
+	margin-top: 40px;
+	.copyright{
+		background: #c9c9c9;
+		float: left;
+		clear: both;
+		height: 136px;
+		width: 100%;
+		bottom: 0;
+		position: absolute;
+		p{
+			padding: 30px 15% 0 15%;
+			text-align: center;
+			font-size: 13px;
+			@include primary-font(600);
+		}
+	}
+	.divSitemap{
+		float: left;
+		width: 631px;
+		h3{
+			font-size: 20px;
+			@include primary-font(400);
+			padding: 40px 0 0 0;
+			width: 100%;
+			float: left;
+		}
+		h4{
+			font-size: 16px;
+			@include primary-font(700);
+			padding: 20px 0 20px 0;
+		}
+		.sitemap{
+			float: left;
+			width: 315px;
+			ul {
+				min-height: 148px;
+				float: left;
+				li{
+					display: inline;
+					width: 151px;
+					float: left;
+					a{
+						font-size: 13px;
+						color: $textos-color;
+						@include primary-font(400);
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.finalLink{
+			color: $textos-color;
+			@include primary-font(600);
+			font-size: 14px;
+		}
+	}
+	.partners{
+		float: right;
+		width: 300px;
+		padding: 40px 0 0 0;
+		ul li{
+			float: left;
+			width: 50%;
+			padding-bottom: 20px;
+		}
+		h3{
+			padding-bottom: 30px;
+			font-size: 20px;
+			@include primary-font(400);
+		}
+	}
+	.institucionalLinks{
+		width: 100%;
+		float: left;
+		clear: both;
+		border-top: 1px solid $bordas-color;
+		padding: 30px 0 30px 0;
+		ul{
+			float: left;
+			li{
+				display: inline;
+				border-right: 1px solid #c9c9c9;
+				padding:  0 25px 0 25px;
+				&:last-child{
+					border-right: none;
+				}
+				a{
+					color: $textos-color;
+					@include primary-font(600);
+					font-size: 13px;
+					text-decoration: none;
+				}
+			}
+		}
+		ul.rightLinks{
+			float: right;
+			li{
+				display: inline;
+				padding: 0 25px 0 25px;
+				border-right: 1px solid #c9c9c9;
+				&:last-child{
+					border-right: none;
+				}
+				a{
+					color: $textos-color;
+					@include primary-font(600);
+					font-size: 13px;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,737 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/* line 6, ../scss/core/reset.sass */
+ul, ol {
+  list-style: none;
+}
+
+/* line 8, ../scss/core/reset.sass */
+h1, h2, h3, h4, h5, h6, pre, code {
+  font-size: 1em;
+}
+
+/* line 10, ../scss/core/reset.sass */
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input, dl, dt, dd, figure, figcaption, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../scss/core/reset.sass */
+a img, :link img, :visited img, fieldset {
+  border: none;
+}
+
+/* line 15, ../scss/core/reset.sass */
+address {
+  font-style: normal;
+}
+
+/* line 17, ../scss/core/reset.sass */
+header, section, article, nav, footer, hgroup, details, summary, figure, main {
+  display: block;
+}
+
+/* line 19, ../scss/core/reset.sass */
+mark {
+  color: inherit;
+  background: transparent;
+}
+
+/* line 22, ../scss/core/reset.sass */
+abbr {
+  border: none;
+}
+
+/* line 24, ../scss/core/reset.sass */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* TAMANHO DAS FONTS
+light: 300,
+regular: 400,
+semi-bold: 600,
+bold: 700,
+*/
+/*VARIAVEIS*/
+/*MIXINS*/
+/* line 17, ../scss/core/layout.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #898989;
+}
+
+/* line 21, ../scss/core/layout.scss */
+.wrap {
+  width: 942px;
+  margin: 0 auto;
+}
+
+/* line 25, ../scss/core/layout.scss */
+header {
+  background: #eee;
+  float: left;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+/* line 32, ../scss/core/layout.scss */
+header #logo {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  float: left;
+  width: 87px;
+  height: 93px;
+  background: #fff;
+  padding: 6px 14px 5px 16px;
+}
+
+/*MENU PRINCIPAL*/
+/* line 43, ../scss/core/layout.scss */
+header nav#menuPrincipal ul {
+  float: left;
+  padding: 0 0 0 20px;
+}
+
+/* line 47, ../scss/core/layout.scss */
+header nav#menuPrincipal ul li {
+  display: inline;
+  padding: 0px 20px 0 30px;
+  margin: 12px 0 0 0;
+  float: left;
+  border-right: 1px solid #c9c9c9;
+}
+
+/* line 54, ../scss/core/layout.scss */
+header nav#menuPrincipal ul li:last-child {
+  border-right: none;
+}
+
+/* line 57, ../scss/core/layout.scss */
+header nav#menuPrincipal ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #898989;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* line 63, ../scss/core/layout.scss */
+header .botaoHeader {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background: #f7941e;
+  color: #fff;
+  border: none;
+  padding: 4px 26px 4px 26px;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  float: right;
+  cursor: pointer;
+}
+
+/* line 75, ../scss/core/layout.scss */
+.adicionaContato[ng-disabled="true"] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/*BREADCRUMB*/
+/* line 80, ../scss/core/layout.scss */
+ol.breadCrumb {
+  width: auto;
+  float: left;
+  padding: 16px 0 16px 150px;
+}
+/* line 84, ../scss/core/layout.scss */
+ol.breadCrumb li {
+  font-size: 12px;
+  display: inline;
+}
+/* line 87, ../scss/core/layout.scss */
+ol.breadCrumb li a {
+  color: #898989;
+  text-decoration: none;
+}
+/* line 91, ../scss/core/layout.scss */
+ol.breadCrumb li span {
+  color: #898989;
+}
+
+/* line 96, ../scss/core/layout.scss */
+.bannerLeft {
+  float: left;
+  width: 700px;
+  padding: 40px 0 0 0;
+}
+
+/*SLIDER*/
+/* line 102, ../scss/core/layout.scss */
+ul#slider {
+  float: left;
+  width: auto;
+}
+/* line 105, ../scss/core/layout.scss */
+ul#slider li {
+  float: left;
+  display: inline;
+  width: 100%;
+}
+/* line 109, ../scss/core/layout.scss */
+ul#slider li img {
+  border: 1px solid #c9c9c9;
+}
+
+/* line 114, ../scss/core/layout.scss */
+ul.navigateSlider {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  clear: both;
+}
+/* line 119, ../scss/core/layout.scss */
+ul.navigateSlider li {
+  display: inline-block;
+  padding: 0 0 0 5px;
+}
+/* line 122, ../scss/core/layout.scss */
+ul.navigateSlider li a {
+  display: inline-block !important;
+  width: 10px;
+  height: 10px;
+  color: #898989;
+  text-decoration: none;
+  background-color: #898989;
+  text-indent: -9999px;
+}
+/* line 131, ../scss/core/layout.scss */
+ul.navigateSlider li a.active, ul.navigateSlider li a:hover {
+  background-color: #20b7ce;
+}
+
+/* line 136, ../scss/core/layout.scss */
+.bannerRight {
+  float: right;
+  padding: 40px 0 40px 0;
+}
+/* line 139, ../scss/core/layout.scss */
+.bannerRight img {
+  outline: 3px solid #ec007a;
+  outline-offset: -3px;
+}
+
+/*SIDEBAR*/
+/* line 145, ../scss/core/layout.scss */
+aside.sidebar {
+  border: 1px solid #c9c9c9;
+  float: left;
+  clear: both;
+  width: 186px;
+  padding: 16px;
+  margin-top: -6px;
+}
+/* line 152, ../scss/core/layout.scss */
+aside.sidebar h2 {
+  color: #f7941e;
+  font-size: 16px;
+  border-bottom: 1px solid #c9c9c9;
+  padding-bottom: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+/* line 159, ../scss/core/layout.scss */
+aside.sidebar h3 {
+  color: #20b7ce;
+  font-size: 14px;
+  padding: 20px 0 0 0;
+}
+/* line 163, ../scss/core/layout.scss */
+aside.sidebar h3:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 9px solid #f7941e;
+}
+/* line 174, ../scss/core/layout.scss */
+aside.sidebar h3 a {
+  color: #20b7ce;
+  font-size: 14px;
+  text-decoration: none;
+}
+/* line 180, ../scss/core/layout.scss */
+aside.sidebar ul li {
+  display: block;
+}
+/* line 182, ../scss/core/layout.scss */
+aside.sidebar ul li a {
+  color: #898989;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 10px 0 0 0;
+  display: block;
+}
+
+/*CONTENT*/
+/* line 192, ../scss/core/layout.scss */
+.content {
+  float: left;
+  padding: 0 0 0 21px;
+  width: 700px;
+}
+
+/* line 197, ../scss/core/layout.scss */
+.content h1, .content article h1, .tituloPrincipal, .content .banner h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #ec007a;
+  font-size: 20px;
+  border-bottom: 1px solid #c9c9c9;
+  padding-bottom: 20px;
+  width: 462px;
+  float: left;
+  margin-top: -6px;
+}
+
+/* line 207, ../scss/core/layout.scss */
+.content article .bannerArticle {
+  margin: 40px 0 40px 0;
+  float: left;
+}
+
+/* line 211, ../scss/core/layout.scss */
+.bannerArticle figcaption {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin: -56px 0 0 0;
+  padding: 15px 0 15px 0;
+  float: left;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 224, ../scss/core/layout.scss */
+.content article p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #898989;
+  padding: 20px 0 0 0;
+  width: 462px;
+  float: left;
+}
+
+/* line 232, ../scss/core/layout.scss */
+.content .banner {
+  float: right;
+  width: 220px;
+}
+/* line 235, ../scss/core/layout.scss */
+.content .banner h1 {
+  width: 100%;
+}
+/* line 239, ../scss/core/layout.scss */
+.content .banner img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin: 20px 0 0 0;
+}
+
+/* line 245, ../scss/core/layout.scss */
+.content ul.boxMessages li {
+  float: left;
+  width: 217px;
+  height: 115px;
+  border: 1px solid #f7941e;
+  margin: 0 20px 80px 0;
+  padding: 14px 0 23px 0;
+  text-align: center;
+}
+/* line 253, ../scss/core/layout.scss */
+.content ul.boxMessages li:last-child {
+  margin-right: 0;
+}
+/* line 256, ../scss/core/layout.scss */
+.content ul.boxMessages li p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 16px 0 16px 0;
+}
+/* line 263, ../scss/core/layout.scss */
+.content ul.boxMessages .sucess #sucessIco {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+/* line 268, ../scss/core/layout.scss */
+.content ul.boxMessages .error #errorIco {
+  width: 54px;
+  height: 54px;
+}
+/* line 272, ../scss/core/layout.scss */
+.content ul.boxMessages .edit #editIco {
+  border: 3px solid #ec007a;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+/* line 278, ../scss/core/layout.scss */
+.content ul.boxMessages .edit #editIco object {
+  width: 30px;
+  height: 50px;
+}
+
+/*FORMULARIO*/
+/* line 286, ../scss/core/layout.scss */
+.divContato {
+  padding: 80px 0 0 0;
+  min-height: 400px;
+  float: left;
+}
+/* line 290, ../scss/core/layout.scss */
+.divContato h1 {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+/* line 295, ../scss/core/layout.scss */
+.divContato p {
+  font-size: 12px;
+  clear: both;
+  padding: 0px 0 10px 0;
+  margin-top: 0;
+  float: left;
+}
+/* line 302, ../scss/core/layout.scss */
+.divContato form {
+  border: none;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+/* line 307, ../scss/core/layout.scss */
+.divContato form fieldset {
+  border: none;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+/* line 312, ../scss/core/layout.scss */
+.divContato form fieldset legend {
+  display: none;
+}
+/* line 315, ../scss/core/layout.scss */
+.divContato form fieldset h2 {
+  margin: 30px 0 0px 0;
+}
+/* line 318, ../scss/core/layout.scss */
+.divContato form fieldset .erroForm {
+  background: #ff6f6f;
+  width: 90%;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  float: left;
+  margin: 10px 0 10px 5%;
+  display: none;
+}
+/* line 329, ../scss/core/layout.scss */
+.divContato form fieldset .sucessForm {
+  background: #539962;
+  width: 90%;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  float: left;
+  margin: 10px 0 10px 5%;
+  display: none;
+}
+/* line 340, ../scss/core/layout.scss */
+.divContato form fieldset input.error {
+  border: 1px solid red;
+}
+/* line 343, ../scss/core/layout.scss */
+.divContato form fieldset input.inputNome, .divContato form fieldset input.inputEmail {
+  width: 700px;
+  height: 25px;
+  margin-top: 5px;
+  float: left;
+  font-size: 16px;
+}
+/* line 350, ../scss/core/layout.scss */
+.divContato form fieldset input.inputDDD {
+  width: 100px;
+  height: 25px;
+  margin-top: 5px;
+  float: left;
+  font-size: 16px;
+}
+/* line 357, ../scss/core/layout.scss */
+.divContato form fieldset input.inputTelefone {
+  width: 700px;
+  height: 25px;
+  margin: 5px 0 0 0px;
+  float: right;
+  font-size: 16px;
+}
+/* line 364, ../scss/core/layout.scss */
+.divContato form fieldset ul.titulo {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 20px;
+}
+/* line 369, ../scss/core/layout.scss */
+.divContato form fieldset ul.titulo li {
+  float: left;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 180px;
+  margin-top: 15px 0 0 0;
+}
+/* line 378, ../scss/core/layout.scss */
+.divContato form fieldset .adicionaContato {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background: #f7941e;
+  color: #fff;
+  border: none;
+  padding: 4px 26px 4px 26px;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  float: right;
+  cursor: pointer;
+}
+/* line 390, ../scss/core/layout.scss */
+.divContato form fieldset .adicionaContato[disabled="disabled"] {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 394, ../scss/core/layout.scss */
+.divContato form fieldset .limpaContato {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background: #999;
+  color: #fff;
+  border: none;
+  padding: 4px 26px 4px 26px;
+  margin: 10px 10px 0 0;
+  font-size: 14px;
+  float: right;
+  cursor: pointer;
+}
+
+/* line 409, ../scss/core/layout.scss */
+table.listacontatos {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 30px;
+  display: none;
+}
+/* line 415, ../scss/core/layout.scss */
+table.listacontatos th, table.listacontatos td {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  float: left;
+  text-align: center;
+  padding: 10px 15px 15px 0;
+  width: 30%;
+}
+/* line 423, ../scss/core/layout.scss */
+table.listacontatos th {
+  background: #eee;
+}
+/* line 426, ../scss/core/layout.scss */
+table.listacontatos td {
+  border-bottom: 1px solid #eee;
+}
+
+/*FOOTER*/
+/* line 431, ../scss/core/layout.scss */
+footer {
+  background: #eeeeee;
+  width: 100%;
+  float: left;
+  clear: both;
+  min-height: 570px;
+  position: relative;
+  margin-top: 40px;
+}
+/* line 439, ../scss/core/layout.scss */
+footer .copyright {
+  background: #c9c9c9;
+  float: left;
+  clear: both;
+  height: 136px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+/* line 447, ../scss/core/layout.scss */
+footer .copyright p {
+  padding: 30px 15% 0 15%;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+/* line 454, ../scss/core/layout.scss */
+footer .divSitemap {
+  float: left;
+  width: 631px;
+}
+/* line 457, ../scss/core/layout.scss */
+footer .divSitemap h3 {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding: 40px 0 0 0;
+  width: 100%;
+  float: left;
+}
+/* line 464, ../scss/core/layout.scss */
+footer .divSitemap h4 {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding: 20px 0 20px 0;
+}
+/* line 469, ../scss/core/layout.scss */
+footer .divSitemap .sitemap {
+  float: left;
+  width: 315px;
+}
+/* line 472, ../scss/core/layout.scss */
+footer .divSitemap .sitemap ul {
+  min-height: 148px;
+  float: left;
+}
+/* line 475, ../scss/core/layout.scss */
+footer .divSitemap .sitemap ul li {
+  display: inline;
+  width: 151px;
+  float: left;
+}
+/* line 479, ../scss/core/layout.scss */
+footer .divSitemap .sitemap ul li a {
+  font-size: 13px;
+  color: #898989;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* line 488, ../scss/core/layout.scss */
+footer .divSitemap .finalLink {
+  color: #898989;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+/* line 494, ../scss/core/layout.scss */
+footer .partners {
+  float: right;
+  width: 300px;
+  padding: 40px 0 0 0;
+}
+/* line 498, ../scss/core/layout.scss */
+footer .partners ul li {
+  float: left;
+  width: 50%;
+  padding-bottom: 20px;
+}
+/* line 503, ../scss/core/layout.scss */
+footer .partners h3 {
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+/* line 509, ../scss/core/layout.scss */
+footer .institucionalLinks {
+  width: 100%;
+  float: left;
+  clear: both;
+  border-top: 1px solid #c9c9c9;
+  padding: 30px 0 30px 0;
+}
+/* line 515, ../scss/core/layout.scss */
+footer .institucionalLinks ul {
+  float: left;
+}
+/* line 517, ../scss/core/layout.scss */
+footer .institucionalLinks ul li {
+  display: inline;
+  border-right: 1px solid #c9c9c9;
+  padding: 0 25px 0 25px;
+}
+/* line 521, ../scss/core/layout.scss */
+footer .institucionalLinks ul li:last-child {
+  border-right: none;
+}
+/* line 524, ../scss/core/layout.scss */
+footer .institucionalLinks ul li a {
+  color: #898989;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+}
+/* line 532, ../scss/core/layout.scss */
+footer .institucionalLinks ul.rightLinks {
+  float: right;
+}
+/* line 534, ../scss/core/layout.scss */
+footer .institucionalLinks ul.rightLinks li {
+  display: inline;
+  padding: 0 25px 0 25px;
+  border-right: 1px solid #c9c9c9;
+}
+/* line 538, ../scss/core/layout.scss */
+footer .institucionalLinks ul.rightLinks li:last-child {
+  border-right: none;
+}
+/* line 541, ../scss/core/layout.scss */
+footer .institucionalLinks ul.rightLinks li a {
+  color: #898989;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+}
