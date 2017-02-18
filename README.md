@@ -30,6 +30,6 @@ Desconsiderar (não avaliar) os arquivos e diretorios minificados gerados pelos 
 1. ** \formulario_prod.html**
 2. ** \formulario_prod.html**
 3. ** \stylesheets\_css**
-3. ** \_js**
+4. ** \_js**
 
 *Obrigado!*
