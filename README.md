@@ -12,7 +12,7 @@ Gruntfile.js
 
 package.json
 
-Plugins: grunt-contrib-uglify, grunt-contrib-cssmin, grunt-contrib-htmlmin, grunt-html-validation
+Plugins: grunt-contrib-uglify, grunt-contrib-cssmin, grunt-contrib-htmlmin
 
 
 ## Desafio n° 1
