@@ -16,13 +16,13 @@ Plugins: grunt-contrib-uglify, grunt-contrib-cssmin, grunt-contrib-htmlmin
 
 
 ## Desafio n° 1
-Arquivo html para avaliação: \index.html
+**Arquivo html para avaliação: \index.html**
 
-Arquivo css para avaliação: \stylesheets\scss\core
+**Arquivo css para avaliação: \stylesheets\scss\core**
 
 
 ## Desafio n° 2
-Arquivo html para avaliação: formulario.html
+**Arquivo html para avaliação: formulario.html**
 
 Arquivos js para avaliação: \js
 
