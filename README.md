@@ -15,12 +15,12 @@ package.json
 Plugins: grunt-contrib-uglify, grunt-contrib-cssmin, grunt-contrib-htmlmin
 
 
-## Desafio n° 1 - Arquivos para avaliar
+## Desafio n° 1 - Arquivos para avaliador analisar:
 1. **HTML: \index.html**
 2. **CSS: \stylesheets\scss\core**
 
 
-## Desafio n° 2 - Arquivos para avaliar
+## Desafio n° 2 - Arquivos para avaliador analisar:
 1. **HTML: \formulario.html**
 2. **JS: \js**
 
