@@ -27,7 +27,7 @@ Plugins: grunt-contrib-uglify, grunt-contrib-cssmin, grunt-contrib-htmlmin
 ## Observações Build:
 Desconsiderar (não avaliar) os arquivos e diretorios minificados gerados pelos plugins do Grunt:
 
-1. ** \formulario_prod.html**
+1. ** \index_prod.html**
 2. ** \formulario_prod.html**
 3. ** \stylesheets\_css**
 4. ** \_js**
