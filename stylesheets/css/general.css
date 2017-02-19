@@ -1,47 +1,47 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/* line 6, ../scss/core/reset.sass */
+/* line 6, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/reset.sass */
 ul, ol {
   list-style: none;
 }
 
-/* line 8, ../scss/core/reset.sass */
+/* line 8, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/reset.sass */
 h1, h2, h3, h4, h5, h6, pre, code {
   font-size: 1em;
 }
 
-/* line 10, ../scss/core/reset.sass */
+/* line 10, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/reset.sass */
 ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input, dl, dt, dd, figure, figcaption, button {
   margin: 0;
   padding: 0;
 }
 
-/* line 13, ../scss/core/reset.sass */
+/* line 13, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/reset.sass */
 a img, :link img, :visited img, fieldset {
   border: none;
 }
 
-/* line 15, ../scss/core/reset.sass */
+/* line 15, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/reset.sass */
 address {
   font-style: normal;
 }
 
-/* line 17, ../scss/core/reset.sass */
+/* line 17, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/reset.sass */
 header, section, article, nav, footer, hgroup, details, summary, figure, main {
   display: block;
 }
 
-/* line 19, ../scss/core/reset.sass */
+/* line 19, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/reset.sass */
 mark {
   color: inherit;
   background: transparent;
 }
 
-/* line 22, ../scss/core/reset.sass */
+/* line 22, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/reset.sass */
 abbr {
   border: none;
 }
 
-/* line 24, ../scss/core/reset.sass */
+/* line 24, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/reset.sass */
 summary::-webkit-details-marker {
   display: none;
 }
@@ -54,20 +54,20 @@ bold: 700,
 */
 /*VARIAVEIS*/
 /*MIXINS*/
-/* line 17, ../scss/core/layout.scss */
+/* line 17, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #898989;
 }
 
-/* line 21, ../scss/core/layout.scss */
+/* line 21, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .wrap {
   width: 942px;
   margin: 0 auto;
 }
 
-/* line 25, ../scss/core/layout.scss */
+/* line 25, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 header {
   background: #eee;
   float: left;
@@ -76,7 +76,7 @@ header {
   border-bottom: 1px solid #c9c9c9;
 }
 
-/* line 32, ../scss/core/layout.scss */
+/* line 32, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 header #logo {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
@@ -89,13 +89,13 @@ header #logo {
 }
 
 /*MENU PRINCIPAL*/
-/* line 43, ../scss/core/layout.scss */
+/* line 43, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 header nav#menuPrincipal ul {
   float: left;
   padding: 0 0 0 20px;
 }
 
-/* line 47, ../scss/core/layout.scss */
+/* line 47, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 header nav#menuPrincipal ul li {
   display: inline;
   padding: 0px 20px 0 30px;
@@ -104,12 +104,12 @@ header nav#menuPrincipal ul li {
   border-right: 1px solid #c9c9c9;
 }
 
-/* line 54, ../scss/core/layout.scss */
+/* line 54, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 header nav#menuPrincipal ul li:last-child {
   border-right: none;
 }
 
-/* line 57, ../scss/core/layout.scss */
+/* line 57, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 header nav#menuPrincipal ul li a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -118,7 +118,7 @@ header nav#menuPrincipal ul li a {
   text-decoration: none;
 }
 
-/* line 63, ../scss/core/layout.scss */
+/* line 63, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 header .botaoHeader {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -136,35 +136,35 @@ header .botaoHeader {
   cursor: pointer;
 }
 
-/* line 75, ../scss/core/layout.scss */
+/* line 75, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .adicionaContato[ng-disabled="true"] {
   opacity: 0.5;
   cursor: default;
 }
 
 /*BREADCRUMB*/
-/* line 80, ../scss/core/layout.scss */
+/* line 80, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ol.breadCrumb {
   width: auto;
   float: left;
   padding: 16px 0 16px 150px;
 }
-/* line 84, ../scss/core/layout.scss */
+/* line 84, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ol.breadCrumb li {
   font-size: 12px;
   display: inline;
 }
-/* line 87, ../scss/core/layout.scss */
+/* line 87, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ol.breadCrumb li a {
   color: #898989;
   text-decoration: none;
 }
-/* line 91, ../scss/core/layout.scss */
+/* line 91, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ol.breadCrumb li span {
   color: #898989;
 }
 
-/* line 96, ../scss/core/layout.scss */
+/* line 96, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .bannerLeft {
   float: left;
   width: 700px;
@@ -172,35 +172,35 @@ ol.breadCrumb li span {
 }
 
 /*SLIDER*/
-/* line 102, ../scss/core/layout.scss */
+/* line 102, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ul#slider {
   float: left;
   width: auto;
 }
-/* line 105, ../scss/core/layout.scss */
+/* line 105, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ul#slider li {
   float: left;
   display: inline;
   width: 100%;
 }
-/* line 109, ../scss/core/layout.scss */
+/* line 109, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ul#slider li img {
   border: 1px solid #c9c9c9;
 }
 
-/* line 114, ../scss/core/layout.scss */
+/* line 114, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ul.navigateSlider {
   margin: 0;
   padding: 0;
   text-align: center;
   clear: both;
 }
-/* line 119, ../scss/core/layout.scss */
+/* line 119, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ul.navigateSlider li {
   display: inline-block;
   padding: 0 0 0 5px;
 }
-/* line 122, ../scss/core/layout.scss */
+/* line 122, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ul.navigateSlider li a {
   display: inline-block !important;
   width: 10px;
@@ -210,24 +210,24 @@ ul.navigateSlider li a {
   background-color: #898989;
   text-indent: -9999px;
 }
-/* line 131, ../scss/core/layout.scss */
+/* line 131, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 ul.navigateSlider li a.active, ul.navigateSlider li a:hover {
   background-color: #20b7ce;
 }
 
-/* line 136, ../scss/core/layout.scss */
+/* line 136, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .bannerRight {
   float: right;
   padding: 40px 0 40px 0;
 }
-/* line 139, ../scss/core/layout.scss */
+/* line 139, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .bannerRight img {
   outline: 3px solid #ec007a;
   outline-offset: -3px;
 }
 
 /*SIDEBAR*/
-/* line 145, ../scss/core/layout.scss */
+/* line 145, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 aside.sidebar {
   border: 1px solid #c9c9c9;
   float: left;
@@ -236,7 +236,7 @@ aside.sidebar {
   padding: 16px;
   margin-top: -6px;
 }
-/* line 152, ../scss/core/layout.scss */
+/* line 152, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 aside.sidebar h2 {
   color: #f7941e;
   font-size: 16px;
@@ -245,13 +245,13 @@ aside.sidebar h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-/* line 159, ../scss/core/layout.scss */
+/* line 159, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 aside.sidebar h3 {
   color: #20b7ce;
   font-size: 14px;
   padding: 20px 0 0 0;
 }
-/* line 163, ../scss/core/layout.scss */
+/* line 163, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 aside.sidebar h3:before {
   content: "";
   display: inline-block;
@@ -263,17 +263,17 @@ aside.sidebar h3:before {
   border-bottom: 5px solid transparent;
   border-left: 9px solid #f7941e;
 }
-/* line 174, ../scss/core/layout.scss */
+/* line 174, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 aside.sidebar h3 a {
   color: #20b7ce;
   font-size: 14px;
   text-decoration: none;
 }
-/* line 180, ../scss/core/layout.scss */
+/* line 180, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 aside.sidebar ul li {
   display: block;
 }
-/* line 182, ../scss/core/layout.scss */
+/* line 182, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 aside.sidebar ul li a {
   color: #898989;
   font-size: 14px;
@@ -283,14 +283,14 @@ aside.sidebar ul li a {
 }
 
 /*CONTENT*/
-/* line 192, ../scss/core/layout.scss */
+/* line 192, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content {
   float: left;
   padding: 0 0 0 21px;
   width: 700px;
 }
 
-/* line 197, ../scss/core/layout.scss */
+/* line 197, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content h1, .content article h1, .tituloPrincipal, .content .banner h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -303,13 +303,13 @@ aside.sidebar ul li a {
   margin-top: -6px;
 }
 
-/* line 207, ../scss/core/layout.scss */
+/* line 207, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content article .bannerArticle {
   margin: 40px 0 40px 0;
   float: left;
 }
 
-/* line 211, ../scss/core/layout.scss */
+/* line 211, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .bannerArticle figcaption {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -325,7 +325,7 @@ aside.sidebar ul li a {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 224, ../scss/core/layout.scss */
+/* line 224, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content article p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -336,16 +336,16 @@ aside.sidebar ul li a {
   float: left;
 }
 
-/* line 232, ../scss/core/layout.scss */
+/* line 232, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content .banner {
   float: right;
   width: 220px;
 }
-/* line 235, ../scss/core/layout.scss */
+/* line 235, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content .banner h1 {
   width: 100%;
 }
-/* line 239, ../scss/core/layout.scss */
+/* line 239, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content .banner img {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -354,7 +354,7 @@ aside.sidebar ul li a {
   margin: 20px 0 0 0;
 }
 
-/* line 245, ../scss/core/layout.scss */
+/* line 245, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content ul.boxMessages li {
   float: left;
   width: 217px;
@@ -364,11 +364,11 @@ aside.sidebar ul li a {
   padding: 14px 0 23px 0;
   text-align: center;
 }
-/* line 253, ../scss/core/layout.scss */
+/* line 253, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content ul.boxMessages li:last-child {
   margin-right: 0;
 }
-/* line 256, ../scss/core/layout.scss */
+/* line 256, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content ul.boxMessages li p {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -376,18 +376,18 @@ aside.sidebar ul li a {
   font-size: 14px;
   padding: 16px 0 16px 0;
 }
-/* line 263, ../scss/core/layout.scss */
+/* line 263, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content ul.boxMessages .sucess #sucessIco {
   width: 50px;
   height: 50px;
   margin: 0 auto;
 }
-/* line 268, ../scss/core/layout.scss */
+/* line 268, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content ul.boxMessages .error #errorIco {
   width: 54px;
   height: 54px;
 }
-/* line 272, ../scss/core/layout.scss */
+/* line 272, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .content ul.boxMessages .edit #editIco {
   border: 3px solid #ec007a;
   -webkit-border-radius: 50px;
@@ -398,26 +398,26 @@ aside.sidebar ul li a {
   height: 50px;
   margin: 0 auto;
 }
-/* line 278, ../scss/core/layout.scss */
-.content ul.boxMessages .edit #editIco object {
+/* line 278, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
+.content ul.boxMessages .edit #editIco img {
   width: 30px;
   height: 50px;
 }
 
 /*FORMULARIO*/
-/* line 286, ../scss/core/layout.scss */
+/* line 286, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato {
   padding: 80px 0 0 0;
   min-height: 400px;
   float: left;
 }
-/* line 290, ../scss/core/layout.scss */
+/* line 290, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato h1 {
   float: left;
   width: 100%;
   margin-top: 40px;
 }
-/* line 295, ../scss/core/layout.scss */
+/* line 295, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato p {
   font-size: 12px;
   clear: both;
@@ -425,29 +425,29 @@ aside.sidebar ul li a {
   margin-top: 0;
   float: left;
 }
-/* line 302, ../scss/core/layout.scss */
+/* line 302, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form {
   border: none;
   float: left;
   clear: both;
   width: 100%;
 }
-/* line 307, ../scss/core/layout.scss */
+/* line 307, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset {
   border: none;
   float: left;
   clear: both;
   width: 100%;
 }
-/* line 312, ../scss/core/layout.scss */
+/* line 312, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset legend {
   display: none;
 }
-/* line 315, ../scss/core/layout.scss */
+/* line 315, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset h2 {
   margin: 30px 0 0px 0;
 }
-/* line 318, ../scss/core/layout.scss */
+/* line 318, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset .erroForm {
   background: #ff6f6f;
   width: 90%;
@@ -459,7 +459,7 @@ aside.sidebar ul li a {
   margin: 10px 0 10px 5%;
   display: none;
 }
-/* line 329, ../scss/core/layout.scss */
+/* line 329, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset .sucessForm {
   background: #539962;
   width: 90%;
@@ -471,11 +471,11 @@ aside.sidebar ul li a {
   margin: 10px 0 10px 5%;
   display: none;
 }
-/* line 340, ../scss/core/layout.scss */
+/* line 340, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset input.error {
   border: 1px solid red;
 }
-/* line 343, ../scss/core/layout.scss */
+/* line 343, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset input.inputNome, .divContato form fieldset input.inputEmail {
   width: 700px;
   height: 25px;
@@ -483,7 +483,7 @@ aside.sidebar ul li a {
   float: left;
   font-size: 16px;
 }
-/* line 350, ../scss/core/layout.scss */
+/* line 350, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset input.inputDDD {
   width: 100px;
   height: 25px;
@@ -491,7 +491,7 @@ aside.sidebar ul li a {
   float: left;
   font-size: 16px;
 }
-/* line 357, ../scss/core/layout.scss */
+/* line 357, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset input.inputTelefone {
   width: 700px;
   height: 25px;
@@ -499,14 +499,14 @@ aside.sidebar ul li a {
   float: right;
   font-size: 16px;
 }
-/* line 364, ../scss/core/layout.scss */
+/* line 364, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset ul.titulo {
   float: left;
   clear: both;
   width: 100%;
   margin-top: 20px;
 }
-/* line 369, ../scss/core/layout.scss */
+/* line 369, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset ul.titulo li {
   float: left;
   text-align: center;
@@ -516,7 +516,7 @@ aside.sidebar ul li a {
   width: 180px;
   margin-top: 15px 0 0 0;
 }
-/* line 378, ../scss/core/layout.scss */
+/* line 378, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset .adicionaContato {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -533,12 +533,12 @@ aside.sidebar ul li a {
   float: right;
   cursor: pointer;
 }
-/* line 390, ../scss/core/layout.scss */
+/* line 390, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset .adicionaContato[disabled="disabled"] {
   opacity: 0.5;
   cursor: default;
 }
-/* line 394, ../scss/core/layout.scss */
+/* line 394, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 .divContato form fieldset .limpaContato {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -556,7 +556,7 @@ aside.sidebar ul li a {
   cursor: pointer;
 }
 
-/* line 409, ../scss/core/layout.scss */
+/* line 409, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 table.listacontatos {
   float: left;
   clear: both;
@@ -564,7 +564,7 @@ table.listacontatos {
   margin-top: 30px;
   display: none;
 }
-/* line 415, ../scss/core/layout.scss */
+/* line 415, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 table.listacontatos th, table.listacontatos td {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -574,17 +574,17 @@ table.listacontatos th, table.listacontatos td {
   padding: 10px 15px 15px 0;
   width: 30%;
 }
-/* line 423, ../scss/core/layout.scss */
+/* line 423, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 table.listacontatos th {
   background: #eee;
 }
-/* line 426, ../scss/core/layout.scss */
+/* line 426, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 table.listacontatos td {
   border-bottom: 1px solid #eee;
 }
 
 /*FOOTER*/
-/* line 431, ../scss/core/layout.scss */
+/* line 431, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer {
   background: #eeeeee;
   width: 100%;
@@ -594,7 +594,7 @@ footer {
   position: relative;
   margin-top: 40px;
 }
-/* line 439, ../scss/core/layout.scss */
+/* line 439, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .copyright {
   background: #c9c9c9;
   float: left;
@@ -604,7 +604,7 @@ footer .copyright {
   bottom: 0;
   position: absolute;
 }
-/* line 447, ../scss/core/layout.scss */
+/* line 447, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .copyright p {
   padding: 30px 15% 0 15%;
   text-align: center;
@@ -612,12 +612,12 @@ footer .copyright p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
-/* line 454, ../scss/core/layout.scss */
+/* line 454, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .divSitemap {
   float: left;
   width: 631px;
 }
-/* line 457, ../scss/core/layout.scss */
+/* line 457, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .divSitemap h3 {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -626,30 +626,30 @@ footer .divSitemap h3 {
   width: 100%;
   float: left;
 }
-/* line 464, ../scss/core/layout.scss */
+/* line 464, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .divSitemap h4 {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   padding: 20px 0 20px 0;
 }
-/* line 469, ../scss/core/layout.scss */
+/* line 469, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .divSitemap .sitemap {
   float: left;
   width: 315px;
 }
-/* line 472, ../scss/core/layout.scss */
+/* line 472, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .divSitemap .sitemap ul {
   min-height: 148px;
   float: left;
 }
-/* line 475, ../scss/core/layout.scss */
+/* line 475, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .divSitemap .sitemap ul li {
   display: inline;
   width: 151px;
   float: left;
 }
-/* line 479, ../scss/core/layout.scss */
+/* line 479, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .divSitemap .sitemap ul li a {
   font-size: 13px;
   color: #898989;
@@ -657,33 +657,33 @@ footer .divSitemap .sitemap ul li a {
   font-weight: 400;
   text-decoration: none;
 }
-/* line 488, ../scss/core/layout.scss */
+/* line 488, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .divSitemap .finalLink {
   color: #898989;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
-/* line 494, ../scss/core/layout.scss */
+/* line 494, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .partners {
   float: right;
   width: 300px;
   padding: 40px 0 0 0;
 }
-/* line 498, ../scss/core/layout.scss */
+/* line 498, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .partners ul li {
   float: left;
   width: 50%;
   padding-bottom: 20px;
 }
-/* line 503, ../scss/core/layout.scss */
+/* line 503, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .partners h3 {
   padding-bottom: 30px;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-/* line 509, ../scss/core/layout.scss */
+/* line 509, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .institucionalLinks {
   width: 100%;
   float: left;
@@ -691,21 +691,21 @@ footer .institucionalLinks {
   border-top: 1px solid #c9c9c9;
   padding: 30px 0 30px 0;
 }
-/* line 515, ../scss/core/layout.scss */
+/* line 515, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .institucionalLinks ul {
   float: left;
 }
-/* line 517, ../scss/core/layout.scss */
+/* line 517, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .institucionalLinks ul li {
   display: inline;
   border-right: 1px solid #c9c9c9;
   padding: 0 25px 0 25px;
 }
-/* line 521, ../scss/core/layout.scss */
+/* line 521, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .institucionalLinks ul li:last-child {
   border-right: none;
 }
-/* line 524, ../scss/core/layout.scss */
+/* line 524, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .institucionalLinks ul li a {
   color: #898989;
   font-family: 'Open Sans', sans-serif;
@@ -713,21 +713,21 @@ footer .institucionalLinks ul li a {
   font-size: 13px;
   text-decoration: none;
 }
-/* line 532, ../scss/core/layout.scss */
+/* line 532, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .institucionalLinks ul.rightLinks {
   float: right;
 }
-/* line 534, ../scss/core/layout.scss */
+/* line 534, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .institucionalLinks ul.rightLinks li {
   display: inline;
   padding: 0 25px 0 25px;
   border-right: 1px solid #c9c9c9;
 }
-/* line 538, ../scss/core/layout.scss */
+/* line 538, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .institucionalLinks ul.rightLinks li:last-child {
   border-right: none;
 }
-/* line 541, ../scss/core/layout.scss */
+/* line 541, C:/wamp64/www/amil-teste/git/frontend-test/stylesheets/scss/core/layout.scss */
 footer .institucionalLinks ul.rightLinks li a {
   color: #898989;
   font-family: 'Open Sans', sans-serif;
