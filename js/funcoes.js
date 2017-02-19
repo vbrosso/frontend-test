@@ -17,7 +17,9 @@ $(document).ready(function() {
     // VALIDACAO NOME
     $(".inputNome").removeNot({ pattern: /[^A-z" "]+/g });
     //MASK TELEFONE
-    $(".inputTelefone").mask("(99) 9999-9999?9");
+    if ($(".inputTelefone").length){
+        $(".inputTelefone").mask("(99) 9999-9999?9");
+    }
 
     //VALIDACAO FORM
     $( ".adicionaContato" ).on( "click", function () {
@@ -34,7 +36,6 @@ $(document).ready(function() {
             return false;
         }
         else{
-            console.log($('.inputTelefone').val());
             $('table.listacontatos').show();
             var nome = $('.inputNome').val();
             var telefone = $('.inputTelefone').val();

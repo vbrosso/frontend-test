@@ -2,21 +2,31 @@
 
 ## Tecnologias usadas
 
-### Pré-processador SASS
+
+### Pré-processador:SASS
 Arquivos scss: stylesheets\scss
 
-### Task manager Grunt
-Gruntfile.js
-package.json
-Plugins: grunt-contrib-uglify, grunt-contrib-cssmin, grunt-contrib-htmlmin, grunt-html-validation
 
-## Desafio n° 1
-Arquivo html para avaliação: \index.html
-Arquivo css para avaliação: \stylesheets\scss\core
+### Task manager:Grunt
+1. Gruntfile.js
+2. package.json
+3. Plugins: grunt-contrib-uglify, grunt-contrib-cssmin, grunt-contrib-htmlmin
 
-## Desafio n° 2
-Arquivo html para avaliação: formulario.html
-Arquivos js para avaliação: \js
 
+## Desafio n° 1 - Arquivos para avaliador analisar:
+1. **HTML: \index.html**
+2. **CSS: \stylesheets\scss\core**
+
+## Desafio n° 2 - Arquivos para avaliador analisar:
+1. **HTML: \formulario.html**
+2. **JS: \js**
+
+## Observações Build:
+Desconsiderar (não avaliar) os arquivos e diretorios minificados gerados pelos plugins do Grunt:
+
+1. ** \index_prod.html**
+2. ** \formulario_prod.html**
+3. ** stylesheets\ _css**
+4. ** \ _js**
 
 *Obrigado!*
